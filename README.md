@@ -1,8 +1,10 @@
 # Patrick LaClair - Development Portfolio
 
-**Last Updated**: 2025-11-09
-**Total Projects**: 12 active repositories
+**Last Updated**: 2025-11-10
+**Total Projects**: 16 active repositories
 **Documentation Standard**: v1.0.0 (standardized 2025-11-09)
+**Environment**: Windows 11 WSL2 (Ubuntu)
+**Location**: `/mnt/d/dev/` (WSL-accessible Windows D: drive)
 
 ---
 
@@ -10,14 +12,18 @@
 
 This is the master documentation for Patrick LaClair's complete development portfolio, covering all active projects across LaClair Technologies and Real Time Information Services (RTIS).
 
+**Platform**: Windows 11 with WSL2 (Ubuntu Linux) running from `/mnt/d/dev/`
+
 ### Portfolio Statistics
 
-- **Total Repositories**: 12
+- **Total Repositories**: 16 active
 - **Brands**: 2 (LaClair Technologies, Real Time Information Services)
 - **Technology Stacks**: 6+ (React/TypeScript, Node.js, PowerShell, Swift, Docker, Bash)
 - **Production Systems**: 3 (xander-dashboard, ih-onboard-form, homelab-iac)
+- **Infrastructure Projects**: 2 (homelab-iac, thebrain)
 - **Documentation Files**: 150+ across all projects
 - **Standardization Date**: 2025-11-09
+- **WSL Setup Date**: 2025-11-10
 
 ---
 
@@ -41,33 +47,35 @@ This is the master documentation for Patrick LaClair's complete development port
 ## Directory Structure
 
 ```
-~/dev/
+/mnt/d/dev/ (~/dev/ on WSL)
 ├── .portfolio/                 # THIS DIRECTORY - Master documentation
 ├── .claude/                    # Claude Code configuration
-├── .dotfiles/                  # Shell configuration and dotfiles
 │
-├── infrastructure/             # Infrastructure & IaC projects
-│   └── homelab-iac/           # Homelab Docker Compose (52+ containers)
+├── infrastructure/             # Infrastructure & IaC projects (2)
+│   ├── homelab-iac/           # Homelab Docker Compose (52+ containers)
+│   └── thebrain/              # OPNsense router infrastructure
 │
-├── laclair/                    # LaClair Technologies projects
+├── laclair/                    # LaClair Technologies projects (12)
 │   ├── xander-dashboard/      # Production dashboard for Xander
 │   ├── ai-device-setup/       # Emergency recovery toolkit
-│   ├── powershell/            # Enterprise PowerShell automation
+│   ├── claude-code-system-prompt/  # Claude Code system prompt docs
+│   ├── dev-root/              # Master dev documentation
+│   ├── portfolio/             # Portfolio documentation (source)
+│   ├── powershell-laclairtech/ # Enterprise PowerShell automation
 │   ├── patrick-laclair-me/    # Personal portfolio website
-│   ├── laclair-family-us/     # Family portal
+│   ├── laclair-family-os/     # Family OS project
 │   ├── laclair-terminal/      # Terminal application
 │   ├── netcalc/               # iOS subnet calculator
 │   ├── xanban/                # Windows parental controls
-│   ├── ai-workspace/          # macOS deployment toolkit
 │   └── repo-standardization-tools/  # Documentation tools
 │
-├── rtis/                       # Real Time Information Services projects
-│   ├── ih-onboard-form/       # IHMG employee onboarding (production)
-│   └── powershell/            # MSP PowerShell automation
+├── rtis/                       # Real Time Information Services projects (2)
+│   ├── realtime_ih-onboard_form/  # IHMG employee onboarding (production)
+│   └── powershell-realtime/   # MSP PowerShell automation
 │
-├── ios/                        # iOS-specific projects
-├── archived/                   # Archived/completed projects
-└── experiments/                # Experimental/proof-of-concept projects
+├── ios/                        # iOS-specific projects (0)
+├── archived/                   # Archived/completed projects (0)
+└── experiments/                # Experimental/proof-of-concept projects (0)
 ```
 
 ---

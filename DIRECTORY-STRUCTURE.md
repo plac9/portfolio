@@ -1,19 +1,23 @@
 # Development Portfolio - Directory Structure
 
-**Last Updated**: 2025-11-09
+**Last Updated**: 2025-11-10
 **Structure Version**: v2.0.0
+**Environment**: Windows 11 WSL2 (Ubuntu)
 
 ---
 
 ## Overview
 
-The `~/dev/` directory is organized by **brand** and **project type** for clear separation and easy navigation.
+The `/mnt/d/dev/` directory (mapped to `~/dev/` on WSL) is organized by **brand** and **project type** for clear separation and easy navigation.
+
+**Platform**: Windows 11 with WSL2 (Ubuntu Linux)
+**Location**: `/mnt/d/dev/` (Windows D: drive accessible from WSL)
 
 ```
-~/dev/
+~/dev/ (/mnt/d/dev/)
 ├── .portfolio/             # Master portfolio documentation
 ├── .claude/                # Claude Code global configuration
-├── .dotfiles/              # Shell configuration (zsh, etc.)
+├── .dotfiles/              # Shell configuration (bash, zsh)
 │
 ├── infrastructure/         # Infrastructure & DevOps projects
 ├── laclair/                # LaClair Technologies projects
@@ -77,13 +81,16 @@ The `~/dev/` directory is organized by **brand** and **project type** for clear 
 
 **Purpose**: Infrastructure as Code, DevOps, and server management projects
 
-**Projects**:
-- **homelab-iac** - Docker Compose for 52+ containers
-  - Authentication (Authentik)
-  - Monitoring systems
-  - Databases
-  - DNS services
-  - Utilities
+**Projects** (2):
+1. **homelab-iac** - Docker Compose for 52+ containers
+   - Authentication (Authentik)
+   - Monitoring systems
+   - Databases
+   - DNS services
+   - Utilities
+2. **thebrain** - OPNsense router infrastructure
+   - Network routing and firewall
+   - Located at thebrain.home.laclair.us:2222
 
 **Characteristics**:
 - Infrastructure-focused
@@ -397,17 +404,19 @@ git remote set-url origin https://github.com/plac9/new-url
 | `.portfolio/` | Master docs | N/A | N/A | Meta |
 | `.claude/` | Claude config | N/A | N/A | Config |
 | `.dotfiles/` | Shell config | N/A | N/A | Config |
-| `infrastructure/` | IaC/DevOps | Mixed | Standard | 1 |
-| `laclair/` | Personal/consulting | LaClair Tech | Standard | 10 |
+| `infrastructure/` | IaC/DevOps | Mixed | Standard | 2 |
+| `laclair/` | Personal/consulting | LaClair Tech | Standard | 12 |
 | `rtis/` | MSP client work | Real Time | Enhanced | 2 |
 | `ios/` | Native Apple apps | Mixed | Standard | 0 |
-| `archived/` | Completed projects | Mixed | N/A | Various |
-| `experiments/` | POC/learning | Mixed | Standard | Various |
+| `archived/` | Completed projects | Mixed | N/A | 0 |
+| `experiments/` | POC/learning | Mixed | Standard | 0 |
 
 ---
 
-**Last Updated**: 2025-11-09
+**Last Updated**: 2025-11-10
 **Structure Version**: v2.0.0
-**Total Projects**: 13 (12 active + 1 meta)
+**Environment**: Windows 11 WSL2 (Ubuntu)
+**Total Projects**: 16 active repositories
+**Location**: `/mnt/d/dev/` (WSL-accessible Windows D: drive)
 
 For more information, see [Master Portfolio README](README.md).
